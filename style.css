@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 1.4em;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.04em;
+    position: relative;
+	margin: auto;
+	background: #181620;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    max-width: 300px;
+    min-width: 300px;
+    margin-top: 30px;
+    min-height: 50px;
+
+    background-color:aliceblue;
+    border: none;
+	border-radius: .4em;
+
+    color: #181620;
+    cursor: pointer;
+}
+
+.btn:nth-child(1) {
+    margin-top: 100px;
+}
+
+.btn:nth-child(1):hover {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+.btn:nth-child(2):hover {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+}
+
+.btn:nth-child(3):hover {
+    color:white;
+    background-color: darkorange;
+    font-weight: bold;
+}
+
+.btn:nth-child(4):hover {
+    color:white;
+    background-color: mediumblue;
+    font-weight: bold;
+}

@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    line-height: 1.2;
+    color: white;
+    background-color: #181620;
+}
+
+.header {
+    background-color: red;
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 100px;
+    min-height: 30px;
+
+    background-color:#1d2021;
+    border: none;
+	border-radius: .4em;
+
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    color: #1d2021;
+}
+
+.desafio {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: yellow;
+    cursor: default;
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #1d2021;
+    width: 500px;
+    padding: 1.3rem 0;
+    border: 1px solid #736b5e;
+    border-radius: 6px;
+}
+
+.container:nth-child(1) {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.container p {
+    margin-left: 10px;
+}
+
+.gray {
+    color: gray;
+}
+
+.red {
+    color: #ff7369;
+}
+
+.blue {
+    color: #8dceff;
+}
+
+.light {
+    color: #cae1f4;
+}
+
+@media (max-width: 700px) {
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 400px;
+    }
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 2</title>
+    <script src="app.js" defer></script>
+    
+</head>
+<body>
+    <header class="header">
+        <button class="btn" onclick="location.href= '../index.html'">Voltar</button>
+    </header>
+
+    <div class="des-wrapper">
+        <p class="desafio">Desafio</p>
+        <p class="desafio">Solução</p>
+    </div>
+
+    <div class="cont-wrapper">
+        <div class="container">
+        <p>
+            <span class="gray">// Como podemos melhorar esse código usando TS?</span> <br>
+            <br>
+            <span class="red">let</span> pessoa1 <span class="blue">=</span> { };<br>
+            pessoa1.<span class="blue">nome = "maria"</span>;<br>
+            pessoa1.<span class="blue">idade = 29</span>;<br>
+            pessoa1.<span class="blue">profissao = "atriz"</span><br>
+            <br>
+            <span class="red">let</span> pessoa2 = { }<br>
+            pessoa2.<span class="blue">nome = "roberto"</span>;<br>
+            pessoa2.<span class="blue">idade = 19</span>;<br>
+            pessoa2.<span class="blue">profissao = "Padeiro"</span>;<br>
+            <br>
+            <span class="red">let</span> pessoa3 <span class="blue">=</span> {<br>
+                <span class="blue">nome: "laura",<br>
+            idade: "32",<br>
+            profissao: "Atriz"</span><br>
+            };<br>
+            <br>
+            <span class="red">let</span> pessoa4 <span class="blue">=</span> {<br>
+            nome <span class="blue">= "carlos"</span>,<br>
+            idade <span class="blue">= 19</span>,<br>
+            profissao <span class="blue">= "padeiro"</span><br>
+            }
+        </p>
+        </div>
+        <div class="container">
+        <p>
+            <span class="red">enum</span> Trabalho {<br>
+                <span class="blue">Atriz</span>,<br>
+                    <span class="blue">Padeiro</span><br>
+            }<br>
+            <br>
+            <span class="red">type</span> Humano <span class="blue">=</span> {<br>
+                <span class="blue">nome</span>: string,<br>
+                <span class="blue">idade</span>: number,<br>
+                <span class="blue">profissao</span>: Trabalho<br>
+            }<br>
+            <br>
+            <span class="red">let</span> pessoa1: Humano <span class="blue">=</span> {<br>
+                <span class="blue">nome</span>: <span class="blue">'maria'</span>,<br>
+                <span class="blue">idade</span>: <span class="blue">29</span>,<br>
+                <span class="blue">profissao</span>: Trabalho.<span class="blue">Atriz</span><br>
+            };<br>
+            <br>
+            <span class="red">let</span> pessoa2: Humano <span class="blue">=</span> {<br>
+                <span class="blue">nome</span>: <span class="blue">'roberto'</span>,<br>
+                <span class="blue">idade</span>: <span class="blue">19</span>,<br>
+                <span class="blue">profissao</span>: Trabalho.<span class="blue">Padeiro</span><br>
+            };<br>
+            <br>
+            <span class="red">let</span> pessoa3: Humano <span class="blue">=</span> {<br>
+                <span class="blue">nome</span>: <span class="blue">'laura'</span>,<br>
+                <span class="blue">idade</span>: <span class="blue">32</span>,<br>
+                <span class="blue">profissao</span>: Trabalho.<span class="blue">Atriz</span><br>
+            };<br>
+            <br>
+            <span class="red">let</span> pessoa4: Humano <span class="blue">=</span> {<br>
+                <span class="blue">nome</span>: <span class="blue">"carlos"</span>,<br>
+                <span class="blue">idade</span>: <span class="blue">19</span>,<br>
+                <span class="blue">profissao</span>: Trabalho.<span class="blue">Padeiro</span><br>
+            }
+        </p>
+        </div>
+    </div>
+</body>
+</html>

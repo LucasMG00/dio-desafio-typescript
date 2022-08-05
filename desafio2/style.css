@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+html, body {
+	height: 100%;
+    background-color: #181620;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    line-height: 1.2;
+    color: white;
+}
+
+.header {
+    background-color: green;
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 100px;
+    min-height: 30px;
+
+    background-color:#1d2021;
+    border: none;
+	border-radius: .4em;
+
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    color: #1d2021;
+}
+
+.des-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.desafio {
+    margin-top: 10px;
+    color: yellow;
+    cursor: default;
+}
+
+.desafio:nth-child(2) {
+    margin-left: 29%;
+}
+
+.cont-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.container {
+    overflow: scroll;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-grow: 1;
+    background-color: #1d2021;
+    max-width: 30%;
+    padding: 1.3rem 0;
+    border: 1px solid #736b5e;
+    border-radius: 6px;
+    align-items: baseline;
+    max-height: 450px;
+}
+
+.container:nth-child(2) {
+    margin-left: 20px;
+}
+
+.container p {
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+    
+::-webkit-scrollbar-track {
+border: 1px solid #736b5e;
+border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb {
+background: #736b5e;  
+border-radius: 10px;
+}
+    
+::-webkit-scrollbar-thumb:hover {
+background: green;  
+border: 1px solid #181620;
+}
+
+.gray {
+    color: gray;
+}
+    
+.red {
+    color: #ff7369;
+}
+    
+.blue {
+    color: #8dceff;
+}
+    
+
+@media (max-width: 900px) {
+    .container {
+        min-width: 45%;
+    }
+
+    .desafio:nth-child(2) {
+        margin-left: 42%;
+    }
+}
