@@ -1,9 +1,9 @@
-let apiKey:string
+let apiKey:string;
 let requestToken: object;
-let username: string
-let password: string 
+let username: string;
+let password: string;
 let sessionId: string;
-let listId:string = (document.getElementById('inputId') as HTMLInputElement).value
+let listId:string = (document.getElementById('inputId') as HTMLInputElement).value;
 
 let loginButton = document.getElementById('login-button') as HTMLButtonElement;
 let searchButton = document.getElementById('search-button')!;
