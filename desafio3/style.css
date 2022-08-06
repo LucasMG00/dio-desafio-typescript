@@ -37,6 +37,7 @@ body {
     font-size: 14px;
     color: white;
     cursor: pointer;
+    transition: .2s ease-in;
 }
 
 .btn:hover {
@@ -91,6 +92,7 @@ input[type=number]::-webkit-inner-spin-button {
     font-weight: bold;
     color: #1d2021;
     cursor: pointer;
+    transition: .1s ease-in;
 }
 
 #atualizar-saldo:hover, #limpar-saldo:hover {

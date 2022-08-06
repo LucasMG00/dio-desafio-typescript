@@ -49,6 +49,7 @@ body {
 
     color: #181620;
     cursor: pointer;
+    transition: .2s ease-in;
 }
 
 .btn:nth-child(1) {
